@@ -11,7 +11,6 @@
 
     <context:annotation-config/>
 
-    <!-- Address Bean -->
 
     <bean class="Autowire.Address" name="address">
 
@@ -22,7 +21,6 @@
 
     </bean>
 
-    <!-- Student Bean -->
 
     <bean class="Autowire.Student" name="std" autowire="byName">
 
